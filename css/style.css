@@ -1,0 +1,320 @@
+/* global */
+.different {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.orange {
+    color: #43acbe81;
+}
+
+.current {
+    border-bottom: 1px solid #e02121;
+}
+
+*, html {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+        
+}
+
+.container_a {
+    background-image: linear-gradient(to right bottom, #051937, #17465a, #4c7376, #8ba196, #cbcfc4);
+    height: 100vh;
+    display: grid;
+}
+
+.wrap {
+    margin-top: 8%;
+    height: 600px;
+    background: rgb(27,26,27);
+    background: linear-gradient(90deg, rgba(27,26,27,1) 100%, rgba(149,42,130,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+
+header {
+    height: 100px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    padding: 15px 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: #e02121;
+}
+
+header #brand {
+    float: left;
+    width: 30%;
+}
+
+header #brand h2 {
+    color: #fff;
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+.wrap {
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.wrap .content h5,
+.wrap .content p {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.wrap .content h1 {
+    font-weight: 700;
+}
+
+.wrap .content p {
+    text-align: justify;
+    width: 100%;
+}
+
+.form_container {
+    display: none;
+}
+
+.form_container img {
+   height: 70%;
+}
+
+/*circles*/
+#circle_a {
+    width: 300px;
+    height: 300px;
+    background-color: #bd6348;
+    z-index: 2;
+    position: absolute;
+    border-radius: 50%;
+    top: 50px;
+    left: 240px;
+}
+
+#circle_inner {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    right: -120px;
+    bottom: -120px;
+}
+
+/* this is for the social media icons */
+.socials {
+    margin-top: 30px;
+}
+.socials li {
+    float: left;
+    list-style: none;
+    padding: 10px 2px;
+}
+
+.socials li:hover {
+    cursor: pointer;
+}
+
+.nextbtn {
+    z-index: 5;
+}
+.nextbtn li {
+    list-style: none;
+}
+
+/*this is for the second page*/
+
+.page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #34495E;
+}
+
+.gallery .box {
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.gallery .box img {
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    z-index: 1;
+    opacity: 1;
+}
+
+.gallery .box img:hover{
+  opacity: 0.82;
+  transition: 0.3s;
+}
+
+.gallery .box:nth-child(1), .gallery .box:nth-child(2), .gallery .box:nth-child(3)
+{
+    float: left;
+    min-width: 30%;
+    border: 1px solid #fff;
+    height: 300px;
+}
+
+.gallery .box:nth-child(2), .gallery .box:nth-child(3), .gallery .box:nth-child(5)
+{
+    margin-left: 1%;
+}
+
+.gallery .box:nth-child(4), .gallery .box:nth-child(5) {
+    min-width: 48%;
+    border: 1px solid #fff;
+    margin-top: 1%;
+    height: 350px;
+    float: left;
+}
+
+.nextbtn2 {
+    z-index: 5;
+    list-style: none;
+    position: absolute;
+    left: 343px;
+    top: 186%;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fullscreen img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+
+  .fullscreen button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .fullscreen button:hover {
+    background-color: #f0f0f0;
+  }
+/*      about us page   */
+.about {
+    background-color: #ECF0F1;
+    margin-left: 5%;
+}
+
+.about #about1, .about #about2
+{
+    float: left;
+    width: 47%;
+    padding: 2%;
+}
+
+.about #about2 {
+    margin-left: 2%;
+}
+
+.about p {
+    text-align: justify;
+}
+
+/* roadmap   */
+.custom-circle {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .roadmap .list-group {
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  /* this is for contact */
+
+  .contact {
+    background-color: #5D6D7E;
+  }
+
+  .contact .box {
+    width: 31%; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .box h1,
+  .contact .box p,
+  .contact .box a{
+    color: #fff;
+  }
+
+  .contact .box a{
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 120px;
+    background-color: #bd6348;
+    padding: 10px;
+  }
+
+  .contact .box a:hover {
+    background-color: #e43630;
+  }
+
+/* this is for the footer */
+.custom_footer {
+    background-color: #212F3D;
+}
+   

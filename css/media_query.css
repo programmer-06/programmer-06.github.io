@@ -1,0 +1,247 @@
+@media only screen and (max-width: 700px)
+{
+    header {
+        overflow: hidden;
+        height: 140px;
+    }
+
+    header nav, header #brand {
+        float: none;  
+    }
+
+    header #brand {
+        width: 100%;
+    }
+
+    header nav  {
+        width: 90%;
+        margin-left: 1%; 
+        display: flex;
+    }
+
+    header nav ul li {
+        padding: 2px 7px;
+    }
+
+    header nav ul li a {
+        font-size: 12px;
+    }
+
+    .wrap {
+        border-radius: 0;
+        display: grid;
+        overflow: hidden;
+    }
+
+    .wrap .content h1 {
+        font-weight: 6200;
+    }
+    
+    .wrap .content {
+        width: 100svw;
+    }
+
+    .wrap .content p {
+        text-align: justify;
+        max-width: 95%;
+    }
+
+    .form_container {
+        width: 200px;
+        right: 190px;
+        margin: 0 0 0 400px;
+        transform: translateY(-1px);
+    }
+
+    .socials {
+        margin-top: 0;
+    }
+
+    .page2 {
+        height: 100%;
+    }
+
+    .gallery {
+        display: grid;
+
+    }
+
+    .gallery .box, .gallery img {
+        border-radius: 0;
+    }
+
+    .about {
+        display: grid;
+        margin-right: 5%;
+    }
+
+    .about #about1, .about #about2 {
+        float: none;
+        width: 100%;
+    }
+
+    .about #about1 p, .about #about2 p {
+        font-size: 14px;
+    }
+
+    .roadmap {
+        font-size: 14px;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .contact .box {
+        width: 90%;
+        display: grid;
+    }
+    
+    .contact .box h1 {
+        font-size: 20px;
+    }
+
+    .contact .box p {
+        font-size: 15px;
+    }
+    
+    .contact .box:nth-child(3) {
+        margin-left: 2%;
+    }
+
+    .custom_footer {
+       
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        overflow: hidden;
+        height: 140px;
+    }
+
+    header nav, header #brand {
+        float: none;  
+    }
+
+    header #brand {
+        width: 100%;
+    }
+
+    header nav  {
+        width: 90%;
+        margin-left: 1%; 
+        display: flex;
+    }
+
+    header nav ul li {
+        padding: 2px 7px;
+    }
+
+    header nav ul li a {
+        font-size: 12px;
+    }
+
+    .wrap {
+        border-radius: 0;
+        display: grid;
+        overflow: hidden;
+    }
+
+    .wrap .content h1 {
+        font-weight: 6200;
+    }
+    
+    .wrap .content p {
+        text-align: justify;
+        max-width: 95%;
+    }
+
+    .form_container {
+        width: 200px;
+        right: 190px;
+        margin: 0 0 0 400px;
+        transform: translateY(-1px);
+    }
+
+    .socials {
+        margin-top: 0;
+    }
+
+    .page2 {
+        height: 100%;
+    }
+
+    .gallery {
+        display: grid;
+
+    }
+
+    .gallery .box, .gallery img {
+        border-radius: 0;
+    }
+
+    .about {
+        display: grid;
+        margin-right: 5%;
+    }
+
+    .about #about1, .about #about2 {
+        float: none;
+        width: 100%;
+    }
+
+    .about #about1 p, .about #about2 p {
+        font-size: 14px;
+    }
+
+    .roadmap {
+        font-size: 14px;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .contact .box {
+        width: 90%;
+        display: grid;
+    }
+    
+    .contact .box h1 {
+        font-size: 20px;
+    }
+
+    .contact .box p {
+        font-size: 15px;
+    }
+    
+    .contact .box:nth-child(3) {
+        margin-left: 2%;
+    }
+
+    .custom_footer {
+       
+    }
+}
+@media only screen and (max-width: 1200px) 
+{
+    .wrap .content {
+        width: 600px;
+    }
+
+    .content p {
+        width: 100%;      
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .wrap .content {
+        width: 400px;
+    }
+
+    .wrap .content p {
+        font-size: 12.7px;
+    }
+} 
